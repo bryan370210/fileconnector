@@ -52,14 +52,7 @@ int main(int argc, char* argv[])
 				break;
 		}
 	}
-/*
-	printf("index = %d \n", optind);
-	printf("arg count = %d \n", argc);
-	printf("src file = %s \n", argv[optind]);
-	printf("index = %d \n", optind);
-	printf("arg count = %d \n", argc);
-	printf("arg0 = %s \n", argv[0]);
-*/
+
 	
 	//open dst  file
 	dstfile = fopen(argv[optind++],"w");
